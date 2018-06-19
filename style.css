@@ -1,0 +1,244 @@
+/****************************/
+/*       HOME/GLOBAL        */
+/****************************/
+
+
+.top-header {
+    padding: 25px 15px;
+    text-align: center;
+}
+.top-header h1 {
+    font-size: 72px;
+    margin-top: 50px;
+}
+.top-header h1 a {
+    color: #000;
+    text-decoration: none;
+}
+.top-header .two {
+    color: lightgray;
+}
+.top-header p {
+
+    text-transform: uppercase;
+}
+.light {
+    max-width: 350px;
+}
+.navbar {
+    background: #000;
+}
+@media(max-width: 767px) {
+    .light {
+        max-width: 300px;
+    }
+    .navbar ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.body-content {
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.body-content .header {
+    color: rgb(140, 141, 145);
+    font-size: 52px;
+    margin-bottom: 40px;
+}
+.body-content .cloud {
+    float: left;
+    padding: 0 25px 25px 0;
+}
+@media(max-width: 767px) {
+    .body-content {
+        text-align: center;
+    }
+    .body-content .cloud {
+        float: none;
+        padding: 0 0 15px 0;
+    }
+}
+@media(max-width: 480px) {
+    .body-content {
+        padding: 80px 15px;
+    }
+}
+.footer {
+    color: #FFF;
+}
+.footer .footer-content {
+    text-align: center;
+}
+.footer .copyright {
+    color: rgb(140, 141, 145);
+    text-align: center;
+}
+.footer .row {
+    background: #000;
+    margin: 0;
+    padding: 15px;
+}
+.footer .dev-link {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+
+
+
+/****************************/
+/*        SERVICES          */
+/****************************/
+.services .body-content .header {
+    text-align: center;
+}
+.services .body-content .service-module {
+    text-align: center;
+}
+.services .body-content .service-module i {
+    padding: 50px 0;
+}
+.services .body-content .service-module p {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+
+
+/****************************/
+/*         CONTACT          */
+/****************************/
+
+.contact .body-content .contact-list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.contact .body-content .contact-list li {
+    margin-bottom: 25px;
+}
+.contact .form-control {
+    margin-bottom: 25px;
+}
+.contact .contact-submit {
+    background: rgb(140, 141, 145);
+    border-color: rgb(140, 141, 145);
+}
+.contact .contact-submit:hover {
+    background: lightgray;
+    border-color: lightgray;
+}
+
+
+
+/****************************/
+/*        PORTFOLIO         */
+/****************************/
+.portfolio .body-content .header {
+    text-align: center;
+}
+.portfolio .portfolio-image {
+    width: auto;
+    margin: 30px 0;
+    max-height: 200px;
+}
+.portfolio .modal-module {
+    padding: 40px 0;
+    text-align: center;
+}
+.portfolio .modal-submit {
+    background: rgb(140, 141, 145);
+    border-color: rgb(140, 141, 145);
+}
+.portfolio .modal-submit:hover {
+    background: lightgray;
+    border-color: lightgray;
+}
+
+
+
+/****************************/
+/*          ABOUT           */
+/****************************/
+.about .body-content .about-header,
+.about .body-content .header {
+    text-align: center;
+}
+.about .group-photo {
+    margin-bottom: 75px;
+    max-width: 500px;
+}
+.about .individual-photo {
+    text-align: center;
+}
+.about .individual {
+    width: 100%;
+}
+.about .social-media {
+    text-align: left;
+}
+.about .social-media a {
+    color: #000;
+}
+.about .social-media a:hover {
+    color: #8c8d91;
+}
+
+
+/****************************/
+/*          MODAL           */
+/****************************/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content img {
+    margin: 0 auto;
+    max-width: 600px;
+    height: auto;
+}
+
+/* The Close Button */
+.close1,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6 {
+    cursor: pointer;
+    font-size: 42px;
+    width: 20px;
+    right: 10px;;
+    top: -20px;
+    position: absolute;
+    color: #aaa;
+    float: right;
+    font-weight: bold;
+}
+.close1:hover,
+.close2:hover,
+.close3:hover,
+.close4:hover,
+.close5:hover,
+.close6:hover {
+    color: #000;
+}
